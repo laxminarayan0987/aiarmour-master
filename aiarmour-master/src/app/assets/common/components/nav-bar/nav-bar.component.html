@@ -1,0 +1,13 @@
+<mat-toolbar class = "navBar">
+  <img src="assets/logo.png" alt="Logo" height="80%">
+  <span class="nav-spacer">ProtexAI</span>
+  <div class="nav-container" [ngClass]="{ 'hidden': hidemenu }">
+    <button class = "nav-buttons" (click)="navigateTo('about')">Home</button>
+    <button class = "nav-buttons" (click)="navigateTo('training-internship')">Training & internship</button>
+    <button class = "nav-buttons" (click)="navigateTo('about')">About us</button>
+    <button class = "nav-buttons" (click)="navigateTo('contact')">Contact</button>
+  </div>
+  <button class = "navMenuButton" mat-icon-button aria-label="icon-button with menu icon" (click)="toggleNavMenu()">
+    <mat-icon>menu</mat-icon>
+  </button>
+</mat-toolbar>

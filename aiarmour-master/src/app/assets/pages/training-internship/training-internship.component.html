@@ -1,0 +1,34 @@
+
+<div class="componentUs container-fluid">
+  <div class="componentGroup row">
+    <div class="col-15">
+      <span class="componentHeading">Training & Internship</span>
+      <span class="componentMessage">At ProtexAI, we believe in empowering the next generation of talent through comprehensive training and internship programs. Our initiatives are designed to provide college students with hands-on experience in the fields of Cybersecurity, Artificial Intelligence, Machine Learning, Data Analytics and Python Development. Interns will have the opportunity to work alongside our expert team, gaining valuable insights into real-world applications of cutting-edge technologies.</span>
+<span class="componentMessage">Our programs focus on bridging the gap between academic knowledge and practical skills. Participants will engage in projects that enhance their understanding of AI and cybersecurity principles, develop critical problem-solving abilities, and collaborate on innovative solutions. We also offer mentorship and guidance to help students refine their skills, expand their professional networks, and prepare for successful careers in technology.</span>
+<span class="componentMessage"  STYLE="font-weight:bold">Join us at ProtexAI to kickstart your career journey and gain the experience needed to thrive in the fast-evolving tech landscape!</span>
+         </div>
+  </div>
+  <div class="kpiCardContainer row">
+    <div class="{{cardClass}} d-flex" *ngFor = "let cource of courceDetails">
+      <div class="kpiCard content">
+        <img src="{{cource.icon}}" alt="Logo" width = "50">
+        <span class = "kpiCardHeading">{{cource.name}}</span>
+        <div class = "kpiCardBody">
+          {{cource.description}}
+          <table *ngIf="cource.badges && cource.badges.length>0">
+            <tr *ngFor = "let badge of cource.badges" class= "row">
+              <td class = "col-3"><span>{{badge.date}}</span><span class="subText">{{badge.days}}</span></td>
+              <td class = "col-3"><span>{{badge.type}}</span><span class="subText">{{badge.badgeType}}</span></td>
+              <td class = "col-6"><span [class] = "badge.bookingStatus">{{badge.bookingStatus}}</span><span class="subText">{{badge.timing}}</span></td>
+            </tr>
+          </table>
+          <br>
+          <br>
+<button onclick="location.href = 'https://forms.gle/hKFhK7bR3rb6JdrR7';" type="button" class = "apply-button">Apply Now </button>
+
+	
+      </div>
+    </div><nav></nav>
+  </div>
+</div>
+</div>
