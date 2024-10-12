@@ -6,6 +6,13 @@
   letter-spacing: 1px;
   font-weight: 600;
   color: #445871;
+  span {
+    padding-left: 15px;
+    cursor: pointer;
+  }
+  img {
+    cursor: pointer;
+  }
 }
 .navBar.mat-toolbar-single-row {
   background-color: white;

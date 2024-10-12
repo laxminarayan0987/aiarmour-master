@@ -1,8 +1,9 @@
 <mat-toolbar class = "navBar">
-  <img src="assets/logo.png" alt="Logo" height="80%">
-  <span class="nav-spacer">ProtexAI</span>
+  <div class="nav-spacer" (click)="navigateTo('home')">
+    <img src="assets/logo.PNG" alt="Logo" height="45px" (click)="navigateTo('home')">
+    <span (click)="navigateTo('home')">ProtexAI</span>
+  </div>
   <div class="nav-container" [ngClass]="{ 'hidden': hidemenu }">
-    <button class = "nav-buttons" (click)="navigateTo('about')">Home</button>
     <button class = "nav-buttons" (click)="navigateTo('training-internship')">Training & internship</button>
     <button class = "nav-buttons" (click)="navigateTo('about')">About us</button>
     <button class = "nav-buttons" (click)="navigateTo('contact')">Contact</button>

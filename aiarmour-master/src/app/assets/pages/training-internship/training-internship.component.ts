@@ -12,7 +12,7 @@ export class TrainingInternshipComponent {
     {
       name : "AI/ML Research Intern",
       description : "Learn the Fundamentals and Grow Your Generative AI (GenAI) Skill Set.",
-      icon: "assets/artificial-intelligence.png",
+      icon: "assets/artificial-intelligence4.png",
       badges: [
         {
           date: "02 Sep 24",
@@ -27,7 +27,7 @@ export class TrainingInternshipComponent {
     {
       name : "AI/ML Intern with Front-end Development",
       description : "Dive into the world of Python, versatile and powerful programming language.",
-      icon: "assets/cyber-security.png",
+      icon: "assets/artificial-intelligence2.png",
       badges: [
         {
           date: "02 Sep 24",
@@ -42,7 +42,7 @@ export class TrainingInternshipComponent {
     {
       name : "GenAI intern",
       description : "Dive into the world of Python, versatile and powerful programming language.",
-      icon: "assets/cyber-security.png",
+      icon: "assets/artificial-intelligence3.png",
       badges: [
         {
           date: "02 Sep 24",
@@ -57,7 +57,7 @@ export class TrainingInternshipComponent {
     {
       name : "Computer Vison Intern",
       description : "Dive into the world of Python, versatile and powerful programming language.",
-      icon: "assets/cyber-security.png",
+      icon: "assets/ComputerVison.png",
       badges: [
         {
           date: "02 Sep 24",
@@ -72,7 +72,7 @@ export class TrainingInternshipComponent {
     {
       name : "Data Analyst",
       description : "Dive into the world of Python, versatile and powerful programming language.",
-      icon: "assets/cyber-security.png",
+      icon: "assets/data-analyst.png",
       badges: [
         {
           date: "02 Sep 24",
@@ -87,7 +87,7 @@ export class TrainingInternshipComponent {
     {
       name : "Machine Learning Intern",
       description : "Dive into the world of Python, versatile and powerful programming language.",
-      icon: "assets/cyber-security.png",
+      icon: "assets/artificial-intelligence.png",
       badges: [
         {
           date: "02 Sep 24",
@@ -102,7 +102,7 @@ export class TrainingInternshipComponent {
     {
       name : "CyberAI Intern",
       description : "Dive into the world of Python, versatile and powerful programming language.",
-      icon: "assets/cyber-security.png",
+      icon: "assets/artificial-intelligence5.png",
       badges: [
         {
           date: "02 Sep 24",
@@ -117,7 +117,7 @@ export class TrainingInternshipComponent {
  {
       name : "VAPT Intern",
       description : "Dive into the world of Python, versatile and powerful programming language.",
-      icon: "assets/cyber-security.png",
+      icon: "assets/testing.png",
       badges: [
         {
           date: "02 Sep 24",
@@ -133,7 +133,7 @@ export class TrainingInternshipComponent {
  {
       name : "Penetration Tester Intern",
       description : "Dive into the world of Python, versatile and powerful programming language.",
-      icon: "assets/cyber-security.png",
+      icon: "assets/testing2.png",
       badges: [
         {
           date: "02 Sep 24",
@@ -149,7 +149,7 @@ export class TrainingInternshipComponent {
     {
       name : "Security Analyst Intern",
       description : "Become proficient in Java, a robust and widely-used programming language.",
-      icon: "assets/data-analyst.png",
+      icon: "assets/security.png",
       badges: [
         {
           date: "02 Sep 24",
@@ -169,7 +169,7 @@ export class TrainingInternshipComponent {
     if (numberOfCources <= 3) {
       this.cardClass = "col-md-" + (12/numberOfCources)
     }
-    else this.cardClass = "col-md-4";
+    else this.cardClass = "col-xl-4 col-lg-6 col-md-6";
     console.log(this.cardClass)
   }
 }
